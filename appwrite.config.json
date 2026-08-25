@@ -2,5 +2,30 @@
     "organizationId": "68e7aee00d7c4b7e3f35",
     "projectId": "daddy-cambridge",
     "projectName": "daddy-cambridge",
-    "endpoint": "https://fra.cloud.appwrite.io/v1"
+    "endpoint": "https://fra.cloud.appwrite.io/v1",
+    "sites": [
+        {
+            "$id": "chemwordle",
+            "name": "ChemWordle",
+            "path": "sites/chemwordle",
+            "framework": "vite",
+            "logging": true,
+            "timeout": 30,
+            "buildRuntime": "node-22",
+            "adapter": "static",
+            "installCommand": "npm install",
+            "buildCommand": "npm run build",
+            "outputDirectory": "./dist",
+            "fallbackFile": "index.html",
+            "installationId": "6a8dbeb46d2ffa93f80a",
+            "providerRepositoryId": "1346356103",
+            "providerBranch": "main",
+            "providerSilentMode": false,
+            "providerRootDirectory": "./",
+            "startCommand": "",
+            "buildSpecification": "s-2vcpu-2gb",
+            "runtimeSpecification": "s-0.5vcpu-512mb",
+            "deploymentRetention": 0
+        }
+    ]
 }
